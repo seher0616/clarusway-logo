@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.778);
+
+
+
+}
+.container{
+    border: 3px solid purple;
+    width: 700px;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    margin-top: 150px;
+   flex-wrap: wrap;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.div1 img{
+   height: 135px;
+    width: 250px; 
+    border-radius: 0.3rem;
+    margin: 0,  auto;
+    
+}
+ div h1{
+    display: block;
+    font-size: 1.5rem;
+    margin:0 0 15px 20px ;
+    color: plum;
+
+}
+.div2  p{
+    margin: 0 0 15px 20px;
+    width: 350px;
+    color: pink;
+}
